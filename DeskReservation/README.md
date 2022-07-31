@@ -64,7 +64,7 @@ This SharePoint list contains the information about the desks that people can bo
 |Number|Active|No|
 |Single line of text|Floor|No|
 
-### Desks Reservations List
+### Desk Reservations List
 
 This SharePoint list contains the reservation information.  Set the list up as follows:
 
@@ -72,7 +72,7 @@ This SharePoint list contains the reservation information.  Set the list up as f
 |---|---|:---:|
 |Single line of text|Title|Yes|
 |Single line of text|DeskText|Yes|
-|Person or Group|Reserved By|Yes|
+|Person or Group|ReservedBy|Yes|
 |Date and Time|Check Out From|No|
 |Date and Time|Check Out To|No|
 |Single line of text|Check Out From Text|No|
@@ -87,7 +87,7 @@ This SharePoint list contains the reservation information.  Set the list up as f
 * Select the **Data** tab
 * Click the "..." next to the Desk Reservations and Desks data connections and select "remove"
 * Select "Add Data" and search for SharePoint
-* Navigate to the site url that you created the SharePoint lists in an add back in the Desks and Desks Reservations lists
+* Navigate to the site url that you created the SharePoint lists in an add back in the Desks and Desk Reservations lists
 
 ## Using the Source Code
 
